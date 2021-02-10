@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `eserciziotpsit`.`studenti` (
   `nome` VARCHAR(45) NOT NULL,
   `cognome` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`));
-  INSERT INTO Studenti (id, nome, cognome)
+  INSERT INTO studenti (id, nome, cognome)
   VALUES (1,"Andrea", "Buono"),
   (2,"Stefano", "Caiazzo"),
   (3,"Lorenzo", "Cibecchini"),
