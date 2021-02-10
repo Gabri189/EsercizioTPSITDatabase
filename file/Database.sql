@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS EsercizioTPSIT;
-USE EsercizioTPSIT;
+CREATE DATABASE IF NOT EXISTS eserciziotpsit;
+USE eserciziotpsit;
 CREATE TABLE IF NOT EXISTS `eserciziotpsit`.`studenti` (
   `id` INT NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
